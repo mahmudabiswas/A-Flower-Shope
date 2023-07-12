@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-column1 {
+  margin-top: 197px;
+  margin-left: 140px;
+}
+.header-title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 57px;
+  font-weight: 800;
+}
+.header-text {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.btn {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 16px 34px;
+  border: none;
+  border-radius: 8px;
+  background: #e55473;
+}
+.button {
+  display: inline-flex;
+  align-items: flex-start;
+}
+.header-column2 img {
+  height: 554px;
+  margin-top: 50px;
+  margin-left: 140px;
+}
+
+/* ----- MAIN SECTION START---- */
+main {
+  margin: auto;
+  background: #fff;
+}
+.main-heading {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 100px;
+}
+.main-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.main-text {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  padding-top: 24px;
+  padding-left: 185px;
+  padding-bottom: 48px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  padding-right: 190px;
+}
+.flowers {
+  display: flex;
+  text-align: center;
+  gap: 124px;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+.img1 {
+  width: auto;
+  height: 289px;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  padding-left: 29px;
+  padding-right: 32px;
+}
+.img2 {
+  width: 218px;
+  height: 289px;
+  padding-top: 55px;
+  padding-bottom: 0px;
+  padding-left: 11px;
+}
+.img3 {
+  width: auto;
+  height: 289px;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  padding-left: 29px;
+  padding-right: 32px;
+}
+.flowers img {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.flowers p {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+
+/* delivery */
+
+.delivary {
+  margin: 198px 128px 225px 183px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 55px 20px 57px 96px;
+}
+.delivary p {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+/* sale */
+.saleUp {
+  background: rgba(229, 84, 115, 0.05);
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sale-title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.sale-title span {
+  color: #e55473;
+}
+/* instagram section */
+
+.instagram {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  padding-left: 140px;
+  padding-right: 140px;
+  margin-bottom: 128px;
+}
+
+/* subscribe section */
+
+.subscribe {
+  background-image: url(/img/Rectangle\ 9.png);
+  margin-left: 140px;
+  margin-right: 140px;
+}
+.subscribe {
+  text-align: center;
+  padding-top: 54px;
+  padding-bottom: 20px;
+}
+.pragraph {
+  margin-bottom: 30px;
+}
+.p {
+  padding-bottom: 80px;
+}
+.sub-section,
+input[type="email"] {
+  width: 493px;
+  height: 39px;
+  display: flex;
+  border: none;
+  align-items: center;
+  padding-left: 22px;
+  border-radius: 8px;
+  margin: auto;
+}
+.btn-sub {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  padding: 10px;
+  margin-left: 10px;
+}
+/* footer section */
+footer {
+  text-align: center;
+  background-color: #111010;
+  color: #ffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+footer h1 {
+  color: #ffff;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+footer span {
+  color: #e55473;
+}
+footer p {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.copy {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 20px;
+}
